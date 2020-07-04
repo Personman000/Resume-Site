@@ -24,6 +24,7 @@ h3
 
 body
 {
+	background-color: lightgrey;
 	max-width: 1500px;
 	margin: auto;
 }
@@ -50,7 +51,7 @@ body
 
 #experience
 {
-	background-color: lightgrey;
+	background-color: white;
 	margin-left: 250px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -80,7 +81,7 @@ body
 
 #box_top, #box_bottom
 {
-	background-color: white;
+	background-color: lightgrey;
 	position: fixed;
 	width: 100%;
 	height: 75px;
