@@ -78,7 +78,7 @@ body
 }
 
 
-#white_box_top, #white_box_bottom
+#box_top, #box_bottom
 {
 	background-color: white;
 	position: fixed;
@@ -86,12 +86,12 @@ body
 	height: 75px;
 }
 
-#white_box_top
+#box_top
 {
 	top: 0;
 }
 
-#white_box_bottom
+#box_bottom
 {
 	bottom: 0;
 }
