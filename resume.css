@@ -5,6 +5,12 @@ h1, h2, h3, h4
 
 }
 
+
+h1
+{
+	padding-top: 20px;
+}
+
 h2
 {
 	text-decoration: underline;
@@ -24,8 +30,30 @@ body
 
 #body_wrapper
 {
-	padding: 5%;
+	padding-top: 75px;
+	padding-bottom: : 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	display: flex;
+	flex-direction: row;
+}
+
+#contact
+{
+	height: 85%;
+	width: 220px;
+	margin-right: 10px;
+	padding-left: 20px;
+	background-color: grey;
+	position: fixed;
+}
+
+#experience
+{
 	background-color: lightgrey;
+	margin-left: 250px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .header
@@ -46,4 +74,23 @@ body
 .content
 {
 	padding-left: 100px;
+}
+
+
+#white_box_top, #white_box_bottom
+{
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	height: 75px;
+}
+
+#white_box_top
+{
+	top: 0;
+}
+
+#white_box_bottom
+{
+	bottom: 0;
 }
