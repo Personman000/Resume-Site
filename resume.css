@@ -3,13 +3,25 @@ html
 	font-family: Arial;
 }
 
+h1, h2
+{
+	
+	padding-left: 5px;
+	margin: 0;
+	border-bottom: 1px solid;
+}
+
+h1
+{
+	font-variant: small-caps;
+	font-size: 76px;
+	padding-top: 12px;
+}
+
 h2
 {
 	text-transform: uppercase;
 	padding-top: 20px;
-	padding-left: 5px;
-	margin: 0;
-	border-bottom: 1px solid;
 }
 
 h2, h3
@@ -63,6 +75,11 @@ body
 	position: fixed;
 }
 
+#contact li
+{
+	font-size: x-small;
+}
+
 #experience
 {
 	background-color: white;
@@ -81,15 +98,14 @@ body
 {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 }
 
 .label
 {
-	width: 100px;
-	height: 80px;
-	padding-left: 10px;
-	padding-right: 10px;
+	width: 50px;
+	height: 30px;
+	padding-left: 5px;
+	padding-top: 5px;
 }
 
 .content
