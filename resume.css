@@ -1,17 +1,28 @@
+html
+{
+	font-family: Arial;
+}
+
 h1, h2, h3, h4
 {
 	margin: 5px;
 	font-variant: small-caps;
-
 }
 
 
 h1
 {
+	text-transform: uppercase;
 	padding-top: 20px;
+	border-bottom: 1px solid;
 }
 
 h1, h2
+{
+	font-weight: normal;
+}
+
+h2
 {
 	text-decoration: underline;
 }
@@ -24,7 +35,7 @@ h3
 
 body
 {
-	background-color: lightgrey;
+	background-color: lightblue;
 	max-width: 1500px;
 	margin: auto;
 }
@@ -32,27 +43,29 @@ body
 #body_wrapper
 {
 	padding-top: 75px;
+	padding-right: 37px;
+	padding-left: 37px;
 	max-width: 800px;
 	margin: auto;
 	display: flex;
 	flex-direction: row;
+	background-color: white;
 }
 
 #contact
 {
 	height: 85%;
-	width: 200px;
-	margin-right: 10px;
+	width: 180px;
+	padding-right: 20px;
 	padding-left: 20px;
-	background-color: grey;
+	background-color: lightblue;
 	position: fixed;
 }
 
 #experience
 {
 	background-color: white;
-	margin-left: 220px;
-	padding-left: 20px;
+	padding-left: 240px;
 	padding-right: 20px;
 	padding-bottom: 100px;
 }
@@ -84,9 +97,10 @@ li
 
 #box_top, #box_bottom
 {
-	background-color: lightgrey;
 	position: fixed;
-	width: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 875px;
 	height: 75px;
 }
 
@@ -98,4 +112,16 @@ li
 #box_bottom
 {
 	bottom: 0;
+}
+
+#whitebox
+{
+	background-color: white;
+	height: 50%;
+}
+
+#colorbox
+{
+	background-color: lightblue;
+	height: 50%;
 }
